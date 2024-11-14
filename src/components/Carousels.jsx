@@ -15,12 +15,11 @@ export default function Carousels() {
     <Carousel activeIndex={index} onSelect={handleSelect}>
       <Carousel.Item>
         <img
-          src="./img1.jpg/600X400"
-          // src={img2}
-          // alt="First slide"
-          // className="d-block w-100"
-          // height={600}
-          // weight={900}
+          src={img2}
+          alt="First slide"
+          className="d-block w-100"
+          height={600}
+          weight={900}
         />
         <Carousel.Caption>
           <h3>Find Your Dream Car</h3>
