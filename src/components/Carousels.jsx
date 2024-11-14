@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Carousel from "react-bootstrap/Carousel";
 import img2 from "../assets/img2.png";
 import img3 from "../assets/img3.jpg";
-import img4 from "../assets/img4.jpg"; // Import the PNG image directly
+import img4 from "../assets/img4.jpg";
 
 export default function Carousels() {
   const [index, setIndex] = useState(0);
@@ -15,11 +15,12 @@ export default function Carousels() {
     <Carousel activeIndex={index} onSelect={handleSelect}>
       <Carousel.Item>
         <img
-          src={img2}
-          alt="First slide"
-          className="d-block w-100"
-          height={640}
-          weight={900}
+          src="./img1.jpg/600X400"
+          // src={img2}
+          // alt="First slide"
+          // className="d-block w-100"
+          // height={600}
+          // weight={900}
         />
         <Carousel.Caption>
           <h3>Find Your Dream Car</h3>
