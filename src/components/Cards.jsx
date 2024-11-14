@@ -17,7 +17,12 @@ export default function Cards() {
             Some quick example text to build on the card title and make up the
             bulk of the card's content.
           </Card.Text>
-          <Button variant="primary">Go somewhere</Button>
+          <div className="d-flex justify-content-center">
+            <Button variant="success" className="me-2">
+              Cart
+            </Button>
+            <Button variant="secondary">Details</Button>
+          </div>
         </Card.Body>
       </Card>
     </>

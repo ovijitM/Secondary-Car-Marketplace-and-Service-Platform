@@ -18,7 +18,7 @@ export default function Carousels() {
           src={img2}
           alt="First slide"
           className="d-block w-100"
-          height={600}
+          height={640}
           weight={900}
         />
         <Carousel.Caption>
